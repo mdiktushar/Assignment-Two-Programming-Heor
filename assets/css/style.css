@@ -1,0 +1,99 @@
+/*===================================================
+***************comon styles & utilities**************
+=====================================================*/
+
+    /*---------- font ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+    /*---------- Universile styles ---------- */
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #131313;
+    margin: 0;
+}
+
+/*===================================================
+***********************Header**********************
+=====================================================*/
+
+/* ----------------navebar--------------- */
+header {
+    background: rgb(255, 244 , 231);
+    width:100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+nav h3 {
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around;
+    padding: none;
+    list-style-type: none;
+    min-width: 477px;
+    align-items: center;
+
+}
+nav div li a {
+    font-size: 18px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #131313;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.title {
+    margin: auto;
+    max-width: 862px;
+    max-height: 225px;
+}
+
+.title h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    margin: 0px;
+    text-align: center;
+}
+
+.title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.banner button {
+    background-color: #ff900e;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 64px;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.banner img{
+    width: 1000px;
+    height: auto;
+}
